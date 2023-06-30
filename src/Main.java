@@ -99,10 +99,12 @@ public class Main {
                     break;
                 case "-":
                     romanNumbInteger = number1 - number2;
+                    break;
                 case "*":
                     romanNumbInteger = number1 * number2;
+                    break;
                 case "/":
-                    romanNumbInteger = number1 * number2;
+                    romanNumbInteger = number1 / number2;
                     break;
                 default:
                     throw new IllegalArgumentException();
